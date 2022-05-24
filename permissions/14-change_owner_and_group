@@ -1,2 +1,2 @@
-#!/bin/bash 
-chown USER:vincent GROUP:staff *
+#!/bin/bash
+chown VINCENT group:STAFF *
