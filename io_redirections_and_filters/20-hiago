@@ -1,2 +1,2 @@
 #!/bin/bash
-str.replace (c,C)
+tr -d "cC"
