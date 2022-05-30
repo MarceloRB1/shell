@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #this loops 10 times Best School using while command#
-i=1  
-while [ $1 -le 10] 
+a=1  
+while [ $a -le 10] 
 do  
-	echo "Best school" 
-	(( i++ ))
+	echo "Best School" 
+	a=$(( a + 1 ))
 done
