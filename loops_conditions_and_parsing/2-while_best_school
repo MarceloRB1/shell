@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 #this loops 10 times Best School using while command#
-while i le 10 ; do echo Best School i++ ; done
+i=1  
+while [ $1 -le 10] 
+do  
+	echo "Best school" 
+	(( i++ ))
+done
