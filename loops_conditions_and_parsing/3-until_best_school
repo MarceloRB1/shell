@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
+#loops best schol 10 times using until#
 a=1
-until not [ $a -le 10 ]
+until [ ! $a -le 10 ]
 do
 echo "Best School"
 a=$(( a + 1 ))
