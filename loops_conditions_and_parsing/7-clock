@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#displays hours from o to 12#
+Hours=0
+while (( Hours<=12 ))
+do
+    echo Hour: "$Hours"
+    min=1
+    while (( min<=59 ))
+    do
+	echo "$min"
+	(( min++ ))
+    done
+    (( Hours++ ))
+done
+
